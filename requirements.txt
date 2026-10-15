@@ -1,7 +1,14 @@
-pandas
-numpy
-matplotlib
-scikit-learn
-jupyter
-sqlalchemy
-psycopg2-binary
+# Versions the project was built and tested with (Python 3.11+).
+pandas==3.0.5
+numpy==2.5.3
+scikit-learn==1.9.1
+scipy==1.18.1
+matplotlib==3.11.2
+plotly==7.1.0
+streamlit==1.66.0
+jupyter==1.1.1
+nbconvert==7.17.2
+nbformat==5.11.1
+ipykernel==7.4.0
+psycopg2-binary==2.9.13
+pytest==9.1.1

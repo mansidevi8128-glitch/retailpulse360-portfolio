@@ -1,7 +1,30 @@
-.ipynb_checkpoints/
+# Python
 __pycache__/
 *.pyc
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+# Environments and secrets
 .env
 .venv/
 venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Intermediate data (raw data and generated reports ARE committed)
 data/interim/
+
+# Generated SQL run output (reproduce with: bash sql/run_all.sh)
+sql/output/
+
+# Streamlit local secrets
+.streamlit/secrets.toml
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
