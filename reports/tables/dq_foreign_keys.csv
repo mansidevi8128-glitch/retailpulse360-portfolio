@@ -1,0 +1,6 @@
+relationship,orphan_rows,passed
+orders.customer_id -> customers.customer_id,0,True
+order_items.order_id -> orders.order_id,0,True
+order_items.product_id -> products.product_id,0,True
+web_sessions.customer_id -> customers.customer_id,0,True
+support_tickets.customer_id -> customers.customer_id,0,True

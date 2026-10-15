@@ -1,0 +1,4 @@
+year,orders_placed,completed_orders,refunded_orders,cancelled_orders,gmv_usd,net_revenue_usd,profit_usd,aov_usd,profit_margin_pct,refund_rate_pct,cancellation_rate_pct,active_customers
+2024,2813,2650,120,43,350945.8,337895.76,131966.45,127.5078,39.0554,4.3321,1.5286,1495
+2025,4884,4610,215,59,617750.22,592791.9,229736.8,128.5883,38.7551,4.456,1.208,2611
+2026,8156,7741,328,87,1017633.78,980336.34,383039.89,126.6421,39.0723,4.0649,1.0667,4166

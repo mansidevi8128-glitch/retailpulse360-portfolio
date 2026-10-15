@@ -1,0 +1,8 @@
+table,column,lower_fence,upper_fence,outliers,max
+orders,gross_merchandise_value_usd,-309.95,527.51,239,1049.88
+orders,profit_usd,-116.56,205.63,588,398.53
+order_items,unit_price_usd,-81.11,178.62,918,246.38
+web_sessions,session_minutes,-20.34,37.28,372,60.0
+web_sessions,pages_viewed,-8.0,20.0,1,21.0
+support_tickets,resolution_hours,-48.73,84.76,45,138.17
+marketing_spend,spend_usd,-63475.54,111940.29,0,55591.81
