@@ -1,0 +1,121 @@
+product_id,category,subcategory,base_price_usd,unit_cost_usd
+P0001,Electronics,Accessories,159.97,73.47
+P0002,Sports & Outdoors,Sports Gear,34.37,23.12
+P0003,Electronics,Smart Home,103.98,73.97
+P0004,Beauty,Personal Care,37.1,18.92
+P0005,Office,Tech Accessories,232.23,144.46
+P0006,Office,Stationery,39.35,27.51
+P0007,Home & Kitchen,Kitchen,92.05,64.01
+P0008,Home & Kitchen,Storage,41.54,25.49
+P0009,Electronics,Accessories,7.99,4.85
+P0010,Apparel,Footwear,24.28,13.56
+P0011,Sports & Outdoors,Outdoor,110.51,49.07
+P0012,Office,Tech Accessories,51.48,21.29
+P0013,Office,Organization,114.39,54.03
+P0014,Beauty,Fragrance,50.48,33.47
+P0015,Beauty,Fragrance,126.09,80.47
+P0016,Apparel,Footwear,32.06,15.64
+P0017,Beauty,Skincare,12.93,9.05
+P0018,Electronics,Wearables,40.98,29.21
+P0019,Beauty,Haircare,34.1,21.3
+P0020,Sports & Outdoors,Sports Gear,41.3,28.24
+P0021,Beauty,Skincare,34.92,15.37
+P0022,Electronics,Accessories,11.67,7.61
+P0023,Sports & Outdoors,Fitness,55.66,31.79
+P0024,Office,Stationery,48.06,34.91
+P0025,Home & Kitchen,Decor,27.38,15.84
+P0026,Office,Organization,46.03,24.05
+P0027,Sports & Outdoors,Sports Gear,51.99,30.24
+P0028,Sports & Outdoors,Fitness,30.92,13.59
+P0029,Sports & Outdoors,Sports Gear,16.93,9.77
+P0030,Office,Tech Accessories,67.18,47.51
+P0031,Office,Organization,50.44,24.65
+P0032,Home & Kitchen,Storage,61.8,29.28
+P0033,Office,Tech Accessories,27.28,19.87
+P0034,Office,Stationery,232.54,159.31
+P0035,Apparel,Bottoms,35.68,23.0
+P0036,Apparel,Accessories,41.56,23.35
+P0037,Home & Kitchen,Storage,37.69,27.71
+P0038,Home & Kitchen,Decor,51.83,36.96
+P0039,Office,Desk,26.46,19.06
+P0040,Apparel,Bottoms,165.24,94.79
+P0041,Electronics,Wearables,37.89,15.67
+P0042,Sports & Outdoors,Fitness,16.13,9.51
+P0043,Apparel,Tops,95.33,58.65
+P0044,Sports & Outdoors,Fitness,96.83,67.99
+P0045,Sports & Outdoors,Sports Gear,69.64,50.74
+P0046,Home & Kitchen,Decor,50.28,23.61
+P0047,Electronics,Wearables,36.0,17.79
+P0048,Office,Desk,54.34,24.76
+P0049,Office,Stationery,46.32,25.72
+P0050,Beauty,Fragrance,29.13,21.7
+P0051,Sports & Outdoors,Outdoor,28.43,20.55
+P0052,Beauty,Fragrance,102.07,59.95
+P0053,Home & Kitchen,Decor,53.05,35.29
+P0054,Sports & Outdoors,Sports Gear,25.69,15.99
+P0055,Office,Tech Accessories,65.88,30.72
+P0056,Beauty,Personal Care,104.45,73.61
+P0057,Apparel,Accessories,49.91,25.43
+P0058,Home & Kitchen,Storage,63.54,41.26
+P0059,Home & Kitchen,Storage,31.06,12.96
+P0060,Home & Kitchen,Kitchen,30.27,21.54
+P0061,Electronics,Smart Home,27.3,18.61
+P0062,Sports & Outdoors,Sports Gear,46.8,20.79
+P0063,Electronics,Wearables,15.46,7.67
+P0064,Electronics,Wearables,63.8,39.17
+P0065,Apparel,Accessories,19.23,11.06
+P0066,Sports & Outdoors,Fitness,33.31,21.57
+P0067,Apparel,Accessories,40.55,23.75
+P0068,Electronics,Accessories,105.37,51.0
+P0069,Electronics,Audio,37.09,22.12
+P0070,Beauty,Skincare,66.08,42.51
+P0071,Apparel,Footwear,41.02,23.35
+P0072,Home & Kitchen,Bedding,23.03,16.29
+P0073,Beauty,Haircare,12.44,9.03
+P0074,Electronics,Smart Home,25.4,16.82
+P0075,Sports & Outdoors,Sports Gear,42.23,25.84
+P0076,Home & Kitchen,Storage,107.27,78.88
+P0077,Office,Tech Accessories,62.19,25.75
+P0078,Sports & Outdoors,Fitness,29.6,19.2
+P0079,Home & Kitchen,Storage,138.12,63.56
+P0080,Home & Kitchen,Bedding,12.12,5.95
+P0081,Apparel,Footwear,128.98,82.56
+P0082,Office,Organization,19.79,11.58
+P0083,Apparel,Bottoms,57.86,26.69
+P0084,Sports & Outdoors,Cycling,45.02,31.34
+P0085,Office,Desk,31.16,12.7
+P0086,Electronics,Smart Home,17.67,10.02
+P0087,Beauty,Skincare,8.87,4.86
+P0088,Office,Organization,48.65,29.49
+P0089,Electronics,Accessories,77.83,32.91
+P0090,Office,Desk,23.04,9.99
+P0091,Sports & Outdoors,Outdoor,41.05,21.05
+P0092,Electronics,Audio,32.52,18.09
+P0093,Beauty,Skincare,64.37,33.32
+P0094,Apparel,Footwear,63.35,32.81
+P0095,Sports & Outdoors,Fitness,74.47,35.24
+P0096,Apparel,Footwear,53.37,28.76
+P0097,Electronics,Audio,63.22,41.41
+P0098,Electronics,Accessories,30.8,12.78
+P0099,Office,Organization,13.64,7.93
+P0100,Beauty,Personal Care,97.64,65.24
+P0101,Apparel,Accessories,46.43,23.21
+P0102,Beauty,Personal Care,58.72,24.41
+P0103,Sports & Outdoors,Cycling,74.17,31.2
+P0104,Sports & Outdoors,Fitness,15.87,11.68
+P0105,Beauty,Personal Care,134.15,64.8
+P0106,Beauty,Skincare,125.39,80.0
+P0107,Beauty,Personal Care,63.08,34.94
+P0108,Beauty,Haircare,101.56,67.16
+P0109,Office,Desk,143.05,70.75
+P0110,Sports & Outdoors,Fitness,48.61,25.22
+P0111,Home & Kitchen,Bedding,93.88,51.19
+P0112,Office,Tech Accessories,99.11,47.2
+P0113,Beauty,Fragrance,72.98,39.61
+P0114,Apparel,Tops,61.43,33.93
+P0115,Apparel,Bottoms,32.79,17.86
+P0116,Office,Stationery,19.51,9.65
+P0117,Beauty,Personal Care,22.53,9.02
+P0118,Office,Stationery,51.47,32.91
+P0119,Sports & Outdoors,Outdoor,25.76,11.31
+P0120,Office,Stationery,60.6,34.51

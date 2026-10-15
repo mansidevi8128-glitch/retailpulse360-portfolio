@@ -1,0 +1,88 @@
+file,column,dtype,table_description
+customers.csv,customer_id,object,Customer master
+customers.csv,signup_date,datetime64[s],Customer master
+customers.csv,state,object,Customer master
+customers.csv,region,object,Customer master
+customers.csv,acquisition_channel,object,Customer master
+customers.csv,preferred_device,object,Customer master
+customers.csv,loyalty_tier,object,Customer master
+products.csv,product_id,object,Product master
+products.csv,category,object,Product master
+products.csv,subcategory,object,Product master
+products.csv,base_price_usd,float64,Product master
+products.csv,unit_cost_usd,float64,Product master
+orders.csv,order_id,object,Order-header financial and status data
+orders.csv,customer_id,object,Order-header financial and status data
+orders.csv,order_date,datetime64[ns],Order-header financial and status data
+orders.csv,sales_channel,object,Order-header financial and status data
+orders.csv,payment_method,object,Order-header financial and status data
+orders.csv,shipping_type,object,Order-header financial and status data
+orders.csv,coupon_used,int64,Order-header financial and status data
+orders.csv,discount_pct,float64,Order-header financial and status data
+orders.csv,order_status,object,Order-header financial and status data
+orders.csv,shipping_fee_usd,float64,Order-header financial and status data
+orders.csv,tax_amount_usd,float64,Order-header financial and status data
+orders.csv,gross_merchandise_value_usd,float64,Order-header financial and status data
+orders.csv,net_revenue_usd,float64,Order-header financial and status data
+orders.csv,total_cost_usd,float64,Order-header financial and status data
+orders.csv,profit_usd,float64,Order-header financial and status data
+order_items.csv,order_item_id,object,Line-item product detail
+order_items.csv,order_id,object,Line-item product detail
+order_items.csv,product_id,object,Line-item product detail
+order_items.csv,quantity,int64,Line-item product detail
+order_items.csv,unit_price_usd,float64,Line-item product detail
+order_items.csv,discount_pct,float64,Line-item product detail
+order_items.csv,line_revenue_usd,float64,Line-item product detail
+order_items.csv,line_cost_usd,float64,Line-item product detail
+web_sessions.csv,session_id,object,Digital behavior/session data
+web_sessions.csv,customer_id,object,Digital behavior/session data
+web_sessions.csv,session_date,datetime64[ns],Digital behavior/session data
+web_sessions.csv,device,object,Digital behavior/session data
+web_sessions.csv,traffic_source,object,Digital behavior/session data
+web_sessions.csv,pages_viewed,int64,Digital behavior/session data
+web_sessions.csv,session_minutes,float64,Digital behavior/session data
+web_sessions.csv,product_views,int64,Digital behavior/session data
+web_sessions.csv,cart_adds,int64,Digital behavior/session data
+web_sessions.csv,checkout_started,int64,Digital behavior/session data
+web_sessions.csv,converted,int64,Digital behavior/session data
+support_tickets.csv,ticket_id,object,Customer-support interactions
+support_tickets.csv,customer_id,object,Customer-support interactions
+support_tickets.csv,opened_date,datetime64[ns],Customer-support interactions
+support_tickets.csv,issue_type,object,Customer-support interactions
+support_tickets.csv,priority,object,Customer-support interactions
+support_tickets.csv,resolution_hours,float64,Customer-support interactions
+support_tickets.csv,csat_score,int64,Customer-support interactions
+support_tickets.csv,refunded,int64,Customer-support interactions
+marketing_spend.csv,month,object,Monthly channel marketing spend/performance
+marketing_spend.csv,channel,object,Monthly channel marketing spend/performance
+marketing_spend.csv,spend_usd,float64,Monthly channel marketing spend/performance
+marketing_spend.csv,impressions,int64,Monthly channel marketing spend/performance
+marketing_spend.csv,clicks,int64,Monthly channel marketing spend/performance
+marketing_spend.csv,leads,int64,Monthly channel marketing spend/performance
+customer_modeling_snapshot.csv,customer_id,object,Prepared customer-level modeling snapshot
+customer_modeling_snapshot.csv,snapshot_date,object,Prepared customer-level modeling snapshot
+customer_modeling_snapshot.csv,region,object,Prepared customer-level modeling snapshot
+customer_modeling_snapshot.csv,acquisition_channel,object,Prepared customer-level modeling snapshot
+customer_modeling_snapshot.csv,preferred_device,object,Prepared customer-level modeling snapshot
+customer_modeling_snapshot.csv,loyalty_tier,object,Prepared customer-level modeling snapshot
+customer_modeling_snapshot.csv,days_since_signup,int64,Prepared customer-level modeling snapshot
+customer_modeling_snapshot.csv,recency_days,float64,Prepared customer-level modeling snapshot
+customer_modeling_snapshot.csv,frequency_12m,float64,Prepared customer-level modeling snapshot
+customer_modeling_snapshot.csv,monetary_value_12m,float64,Prepared customer-level modeling snapshot
+customer_modeling_snapshot.csv,avg_order_value_12m,float64,Prepared customer-level modeling snapshot
+customer_modeling_snapshot.csv,profit_12m,float64,Prepared customer-level modeling snapshot
+customer_modeling_snapshot.csv,gross_margin_pct_12m,float64,Prepared customer-level modeling snapshot
+customer_modeling_snapshot.csv,avg_discount_pct_12m,float64,Prepared customer-level modeling snapshot
+customer_modeling_snapshot.csv,refund_rate_12m,float64,Prepared customer-level modeling snapshot
+customer_modeling_snapshot.csv,category_diversity_12m,float64,Prepared customer-level modeling snapshot
+customer_modeling_snapshot.csv,web_sessions_90d,float64,Prepared customer-level modeling snapshot
+customer_modeling_snapshot.csv,avg_session_minutes_90d,float64,Prepared customer-level modeling snapshot
+customer_modeling_snapshot.csv,product_views_90d,float64,Prepared customer-level modeling snapshot
+customer_modeling_snapshot.csv,cart_adds_90d,float64,Prepared customer-level modeling snapshot
+customer_modeling_snapshot.csv,conversion_rate_90d,float64,Prepared customer-level modeling snapshot
+customer_modeling_snapshot.csv,cart_add_rate_90d,float64,Prepared customer-level modeling snapshot
+customer_modeling_snapshot.csv,support_tickets_12m,float64,Prepared customer-level modeling snapshot
+customer_modeling_snapshot.csv,avg_resolution_hours_12m,float64,Prepared customer-level modeling snapshot
+customer_modeling_snapshot.csv,avg_csat_12m,float64,Prepared customer-level modeling snapshot
+customer_modeling_snapshot.csv,refund_requests_12m,float64,Prepared customer-level modeling snapshot
+customer_modeling_snapshot.csv,churned_next_90d,int64,Prepared customer-level modeling snapshot
