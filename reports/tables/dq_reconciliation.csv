@@ -1,0 +1,9 @@
+scope,rule,orders_checked,violations
+All,GMV = sum of line revenue (post-discount),30054,0
+All,Profit = net revenue - total cost,30054,0
+All,Order discount = every line discount,30054,0
+Completed,Net revenue = GMV + shipping fee (tax excluded),28436,0
+Completed,Total cost = sum of line cost,28436,0
+Refunded,Net revenue = 0,1253,0
+Refunded,Total cost = sum of line cost (goods not recovered),1253,0
+Cancelled,"Net revenue, cost and profit = 0",365,0

@@ -1,0 +1,4 @@
+sales_channel,orders_placed,completed_orders,refunded_orders,cancelled_orders,gmv_usd,net_revenue_usd,profit_usd,aov_usd,profit_margin_pct,refund_rate_pct,cancellation_rate_pct,revenue_share_pct
+Website,16600,15708,694,198,2089395.18,2012072.05,785243.5,128.0922,39.0266,4.2312,1.1928,55.2266
+Mobile App,10498,9955,413,130,1324815.34,1274284.73,498764.47,128.0045,39.1407,3.9834,1.2383,34.9761
+Marketplace,2956,2773,146,37,371869.75,356942.78,138046.35,128.7208,38.6746,5.0017,1.2517,9.7972

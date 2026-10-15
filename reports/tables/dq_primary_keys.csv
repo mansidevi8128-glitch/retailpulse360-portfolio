@@ -1,0 +1,8 @@
+table,key,null_keys,duplicate_keys,passed
+customers,customer_id,0,0,True
+products,product_id,0,0,True
+orders,order_id,0,0,True
+order_items,order_item_id,0,0,True
+web_sessions,session_id,0,0,True
+support_tickets,ticket_id,0,0,True
+marketing_spend,month + channel,0,0,True

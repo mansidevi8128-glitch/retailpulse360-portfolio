@@ -1,0 +1,4 @@
+shipping_type,orders_placed,completed_orders,refunded_orders,cancelled_orders,gmv_usd,net_revenue_usd,profit_usd,aov_usd,profit_margin_pct,refund_rate_pct,cancellation_rate_pct,revenue_share_pct
+Standard,15009,14202,638,169,1890144.32,1823348.2,712427.88,128.3867,39.0725,4.2992,1.126,50.0466
+Free Standard,10273,9727,416,130,1304212.29,1232646.96,468161.35,126.7243,37.9802,4.1014,1.2655,33.8333
+Express,4772,4507,199,66,591723.66,587304.4,241465.09,130.3094,41.1141,4.2286,1.3831,16.1201

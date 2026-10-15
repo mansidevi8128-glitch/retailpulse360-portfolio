@@ -1,0 +1,2 @@
+segment,sessions,viewed_product,added_to_cart,checkout_started,converted,avg_session_minutes,conversion_rate_pct,cart_rate_pct,checkout_completion_pct
+All sessions,76327,70625,40797,22495,13504,9.3884,17.6923,53.4503,60.0311

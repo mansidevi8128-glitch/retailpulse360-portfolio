@@ -1,0 +1,5 @@
+cluster,segment,customers,share_pct,days_since_last_purchase,frequency_12m,monetary_value_12m,profit_12m,avg_order_value_12m,gross_margin_pct_12m,avg_discount_pct_12m,refund_rate_12m,category_diversity_12m,web_sessions_90d,conversion_rate_90d,support_tickets_12m,never_purchased,total_profit_12m,profit_share_pct,churn_rate_pct
+0,Promotion-Driven Frequent Buyers,2545,42.4167,78.4884,3.8244,477.9492,194.0587,123.967,0.4071,5.8316,0.0177,3.8986,2.11,0.1497,0.5179,0.0,493879.46,57.1956,16.7387
+1,Full-Price Regulars,2592,43.2,106.3449,2.3264,307.0505,132.9419,132.8254,0.4423,0.0198,0.0098,2.8897,2.1532,0.1494,0.5123,0.0,344585.49,39.906,26.0417
+2,Lapsed / No Recent Purchase,559,9.3167,356.5045,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.1968,0.1318,0.4902,0.5295,0.0,0.0,63.5063
+3,Refund-Prone Buyers,304,5.0667,168.3421,1.4572,195.7814,82.3257,108.9961,0.3616,1.9627,0.5028,2.0888,2.0493,0.1594,0.5559,0.0691,25027.01,2.8983,47.0395

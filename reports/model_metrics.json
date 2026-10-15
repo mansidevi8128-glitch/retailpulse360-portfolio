@@ -1,0 +1,151 @@
+{
+  "disclaimer": "Synthetic data and synthetic churn label; metrics do not demonstrate real-world accuracy.",
+  "executive_summary": {
+    "period_start": "2024-01-01",
+    "period_end": "2026-05-31",
+    "customers": 6000,
+    "purchasing_customers": 5683,
+    "orders_placed": 30054,
+    "completed_orders": 28436,
+    "refunded_orders": 1253,
+    "cancelled_orders": 365,
+    "gmv_usd": 3786080.27,
+    "net_revenue_usd": 3643299.5599999996,
+    "shipping_revenue_usd": 62434.58,
+    "profit_usd": 1422054.32,
+    "refund_loss_usd": 95058.87,
+    "aov_usd": 128.1227866085244,
+    "profit_margin_pct": 39.03204489723596,
+    "refund_rate_pct": 4.220418336757722,
+    "cancellation_rate_pct": 1.2144806015838159
+  },
+  "repeat_purchase_rate_pct": 87.94650712651769,
+  "headline": {
+    "marketing_spend_usd": 3967736.25,
+    "profit_after_marketing_usd": -2545681.9299999997,
+    "tickets_per_100_orders_first": 11.693548387096774,
+    "tickets_per_100_orders_last": 24.273858921161825,
+    "csat_first_12m": 4.459830546800123,
+    "csat_last_12m": 4.509155372051172,
+    "first_month": "Jan 2024",
+    "last_month": "May 2026",
+    "first_month_revenue": 62193.67,
+    "last_month_revenue": 226629.2,
+    "ytd_revenue_growth_2026_vs_2025_pct": 65.37613621238751,
+    "ytd_profit_growth_2026_vs_2025_pct": 66.7298795839413,
+    "ytd_aov_2025": 128.58826464208244,
+    "ytd_aov_2026": 126.64207983464668,
+    "ytd_margin_2025": 38.75505046543314,
+    "ytd_margin_2026": 39.07229329068838,
+    "ytd_active_2025": 2611,
+    "ytd_active_2026": 4166,
+    "top_revenue_category": "Office",
+    "top_profit_category": "Office",
+    "highest_margin_category": "Electronics",
+    "lowest_margin_category": "Home & Kitchen",
+    "best_first_year_channel": "Paid Social",
+    "worst_first_year_channel": "Referral",
+    "lowest_cpl_channel": "Email",
+    "highest_cpl_channel": "Paid Search",
+    "negative_mom_months": 8
+  },
+  "statistical_checks": {
+    "refund_rate_marketplace_vs_website": {
+      "rate_a_pct": 5.00171291538198,
+      "rate_b_pct": 4.231191318131935,
+      "difference_pp": 0.7705215972500457,
+      "chi2": 3.3548771246965394,
+      "p_value": 0.06700621133337546
+    },
+    "refund_rate_discounted_vs_full_price": {
+      "rate_a_pct": 4.536750626012667,
+      "rate_b_pct": 4.1266375545851535,
+      "difference_pp": 0.4101130714275141,
+      "chi2": 2.0785614670288077,
+      "p_value": 0.14938089872737442
+    },
+    "churn_rate_bronze_vs_platinum": {
+      "rate_a_pct": 30.64826700898588,
+      "rate_b_pct": 15.918367346938775,
+      "difference_pp": 14.729899662047105,
+      "chi2": 22.959824753520543,
+      "p_value": 1.6542259333883431e-06
+    }
+  },
+  "churn": {
+    "chosen_model": "Logistic Regression",
+    "threshold": 0.33,
+    "threshold_selection": "max F1 on out-of-fold training predictions",
+    "base_rate_train": 0.26644444444444443,
+    "base_rate_test": 0.26666666666666666,
+    "test_metrics_at_threshold": {
+      "threshold": 0.33,
+      "roc_auc": 0.7846113636363636,
+      "pr_auc": 0.6128071039996095,
+      "brier_score": 0.14906017880185882,
+      "accuracy": 0.7733333333333333,
+      "precision": 0.5761421319796954,
+      "recall": 0.5675,
+      "f1": 0.5717884130982368,
+      "true_negatives": 933,
+      "false_positives": 167,
+      "false_negatives": 173,
+      "true_positives": 227,
+      "flagged_customers": 394
+    },
+    "test_metrics_at_0_5": {
+      "threshold": 0.5,
+      "roc_auc": 0.7846113636363636,
+      "pr_auc": 0.6128071039996095,
+      "brier_score": 0.14906017880185882,
+      "accuracy": 0.7986666666666666,
+      "precision": 0.7227272727272728,
+      "recall": 0.3975,
+      "f1": 0.5129032258064516,
+      "true_negatives": 1039,
+      "false_positives": 61,
+      "false_negatives": 241,
+      "true_positives": 159,
+      "flagged_customers": 220
+    },
+    "cv_results": [
+      {
+        "model": "Logistic Regression",
+        "cv_roc_auc_mean": 0.7818591098462071,
+        "cv_roc_auc_std": 0.017141027391594354,
+        "cv_pr_auc_mean": 0.5914082345845472,
+        "cv_pr_auc_std": 0.04602863102769911
+      },
+      {
+        "model": "Random Forest",
+        "cv_roc_auc_mean": 0.7758660774085753,
+        "cv_roc_auc_std": 0.01774396630820079,
+        "cv_pr_auc_mean": 0.586588245152863,
+        "cv_pr_auc_std": 0.039479714338745794
+      },
+      {
+        "model": "Gradient Boosting",
+        "cv_roc_auc_mean": 0.759900998468918,
+        "cv_roc_auc_std": 0.02281977698496694,
+        "cv_pr_auc_mean": 0.5666857522747796,
+        "cv_pr_auc_std": 0.04282114845147055
+      }
+    ]
+  },
+  "segmentation": {
+    "k": 4,
+    "silhouette": 0.2321462951022417,
+    "stability": {
+      "seed_ari_min": 0.998179439079592,
+      "seed_ari_mean": 0.9993930973937795,
+      "bootstrap_ari_mean": 0.8524755911142808,
+      "bootstrap_ari_min": 0.5052208626374721
+    },
+    "segment_names": {
+      "0": "Promotion-Driven Frequent Buyers",
+      "1": "Full-Price Regulars",
+      "2": "Lapsed / No Recent Purchase",
+      "3": "Refund-Prone Buyers"
+    }
+  }
+}

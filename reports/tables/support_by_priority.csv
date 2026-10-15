@@ -1,0 +1,4 @@
+priority,tickets,avg_resolution_hours,median_resolution_hours,avg_csat,satisfied_pct,refunded_pct,ticket_share_pct
+Medium,2279,17.9942,15.19,4.5292,92.1018,26.2396,48.8846
+Low,1626,30.0294,25.105,4.3518,85.7319,25.0923,34.8777
+High,757,8.6941,7.3,4.6579,95.1123,24.1744,16.2377

@@ -1,0 +1,8 @@
+table,rows,columns,missing_cells,duplicate_rows,date_range
+customers,6000,7,0,0,2023-01-01 to 2026-05-15
+products,120,5,0,0,
+orders,30054,15,0,0,2024-01-01 to 2026-05-31
+order_items,56183,8,0,0,
+web_sessions,76327,11,0,0,2024-01-01 to 2026-05-31
+support_tickets,4662,8,0,0,2024-01-01 to 2026-05-31
+marketing_spend,174,6,0,0,2024-01-01 to 2026-05-01

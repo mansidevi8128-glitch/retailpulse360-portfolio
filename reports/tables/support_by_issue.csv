@@ -1,0 +1,8 @@
+issue_type,tickets,avg_resolution_hours,median_resolution_hours,avg_csat,satisfied_pct,refunded_pct,ticket_share_pct
+Product Question,991,20.3562,15.22,4.5187,91.3219,0.0,21.257
+Delivery Delay,835,20.4999,15.99,4.4838,89.8204,0.0,17.9108
+Refund Request,825,20.5519,15.39,4.4655,89.9394,100.0,17.6963
+Damaged Item,656,20.8157,16.02,4.4878,90.2439,34.4512,14.0712
+Account Issue,533,21.3615,15.87,4.4409,88.5553,0.0,11.4329
+Payment Issue,445,21.4035,16.64,4.4966,91.6854,0.0,9.5453
+Wrong Item,377,20.177,16.03,4.5252,91.2467,36.6048,8.0867

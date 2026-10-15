@@ -1,0 +1,24 @@
+table,check,rows_flagged
+customers,Signup date after snapshot date,0
+customers,State mapped to more than one region,0
+products,Unit cost >= base price (non-positive margin),0
+orders,Order dated before customer signup,0
+orders,Order dated after snapshot date,0
+orders,Negative money value,0
+orders,Discount outside 0-100%,0
+orders,coupon_used = 1 but discount_pct = 0,4079
+orders,coupon_used = 0 but discount_pct > 0,0
+orders,Completed order with negative profit,2
+orders,Order without line items,0
+order_items,Quantity < 1,0
+order_items,Line revenue != qty x price x (1 - discount) (> 1 cent),0
+order_items,Line cost != qty x product unit cost (> 1 cent),0
+web_sessions,Session dated before customer signup,0
+web_sessions,Converted without checkout started,0
+web_sessions,Checkout started without a cart add,0
+web_sessions,Cart adds > product views,0
+support_tickets,Ticket opened before customer signup,0
+support_tickets,CSAT outside 1-5,0
+support_tickets,Non-positive resolution hours,0
+marketing_spend,Clicks > impressions,0
+marketing_spend,Leads > clicks,0

@@ -1,0 +1,4 @@
+model,threshold,roc_auc,pr_auc,brier_score,accuracy,precision,recall,f1,true_negatives,false_positives,false_negatives,true_positives,flagged_customers
+Logistic Regression,0.5,0.7846,0.6128,0.1491,0.7987,0.7227,0.3975,0.5129,1039,61,241,159,220
+Random Forest,0.5,0.7719,0.6116,0.1502,0.8013,0.7237,0.4125,0.5255,1037,63,235,165,228
+Gradient Boosting,0.5,0.7689,0.576,0.1555,0.7853,0.6393,0.4475,0.5265,999,101,221,179,280

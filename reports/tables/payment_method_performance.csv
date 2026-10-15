@@ -1,0 +1,5 @@
+payment_method,orders_placed,completed_orders,refunded_orders,cancelled_orders,gmv_usd,net_revenue_usd,profit_usd,aov_usd,profit_margin_pct,refund_rate_pct,cancellation_rate_pct,revenue_share_pct
+Card,18087,17090,772,225,2269851.0,2184737.83,853778.57,127.8372,39.0792,4.322,1.244,59.9659
+PayPal,5397,5125,205,67,682337.03,657715.87,257569.1,128.3348,39.1612,3.8462,1.2414,18.0528
+Digital Wallet,5082,4811,217,54,648065.53,623287.22,242091.25,129.5546,38.841,4.3158,1.0626,17.1078
+BNPL,1488,1410,59,19,185826.71,177558.64,68615.4,125.9281,38.6438,4.0163,1.2769,4.8736
